@@ -8,7 +8,7 @@ Once config.php has been configured, the index.php must be called with ?env=[env
 
 Screenshot
 ==========
-![Screenshot of the dashboard](http://imgur.com/paacfwo "Screenshot of the dashboard")
+![Screenshot of the dashboard](/screenshot.png?raw=true "Screenshot of the dashboard")
 
 To-do
 =====
