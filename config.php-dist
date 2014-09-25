@@ -1,0 +1,15 @@
+<?php
+$f5Options = array(
+	'staging' => array(
+		'hostUri' => "https://staging:123qweQWE@192.168.10.10:443",
+		'partition' => "staging"
+	),
+	'production' => array(
+		'hostUri' => "https://production:123qweQWE@192.168.10.10:443",
+		'partition' => "production"
+	)
+);
+
+$refreshInterval = 5000;
+$apiUrl = $_SERVER['REQUEST_URI']."&mode=api";
+?>
