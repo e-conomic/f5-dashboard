@@ -1,6 +1,6 @@
 <?php
 include("config.php");
-if (!isset($_GET['env']) || ($_GET['env'] != "staging" && $_GET['env'] != "production")) die("You must specify either ?env=staging or ?env=production in the URL");
+if (!isset($_GET['env']) || !in_array($_GET['env'], array_keys($f5Options))) die("You must specify a valid env using the ?env option in the URL");
 
 if (isset($_GET['mode']) && $_GET['mode'] == "api"){
 	// API part
